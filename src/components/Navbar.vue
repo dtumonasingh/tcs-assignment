@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
     <div class="navbar__container">
-      <router-link class="navbar__item" to="/"> {{ airlines }} </router-link>
+      <router-link class="navbar__item" to="/airlines"> {{ airlines }} </router-link>
       <router-link class="navbar__item" to="/passengers"> {{ passengers }} </router-link>
     </div>
   </div>
